@@ -30,6 +30,7 @@ namespace Stock
             bool result = StockTrading.Trading_Time.IsTradingHour(dateTime);
             if (result) { Console.WriteLine("盤中時間!!!"); }
             else { Console.WriteLine("收盤了!!!"); }
+            //test
         }
     }
 }
